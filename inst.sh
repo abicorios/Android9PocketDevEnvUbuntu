@@ -6,6 +6,5 @@ cd
 pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
 
 cp $pr/postinst.sh ~/ubuntu-fs/root/postinst.sh
-cp $pr/vimrc ~/ubuntu-fs/root/.vimrc
 echo './postinst.sh'>>~/ubuntu-fs/root/.profile
 bash start-ubuntu.sh
