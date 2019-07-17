@@ -7,3 +7,4 @@ apt install -y vim-youcompleteme build-essential less
 vam install youcompleteme
 cd
 rm -f postinst.sh
+exit
